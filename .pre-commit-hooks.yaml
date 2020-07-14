@@ -88,6 +88,13 @@
   language: ruby
   types: ['ruby']
 
+- id: docker-rubocop
+  name: Check Ruby style with rubocop in Docker
+  description: Enforce Ruby style guide with rubocop
+  entry: run-docker-rubocop
+  language: ruby
+  types: ['ruby']
+
 - id: shellcheck
   name: Test shell scripts with shellcheck
   description: Shell scripts conform to shellcheck
